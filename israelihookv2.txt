@@ -1,2 +1,3 @@
-local player = game.Players.LocalPlayer
-player:Kick("Script was disabled by script owner!")   
+local Players = game:GetService("Players")
+
+Players.LocalPlayer:Kick("Script was disabled by its owner! Join https://discord.gg/yahurivals for more info!")
